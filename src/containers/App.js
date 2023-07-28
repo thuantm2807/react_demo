@@ -32,6 +32,7 @@ class App extends Component {
         return (!robots.length) ? <h1 className="tc">Loading</h1> :          
         (
             <div className="tc">
+                <h2 className="thomas-style">Welcome to Thomas</h2>
                 <h1>Robofriends</h1>
                 <Searchbox searchChange={this.onSearchChange}/>
                 <Scroll>
